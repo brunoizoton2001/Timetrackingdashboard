@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+
+.all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    margin-top: 10%;
+    grid-gap: 30px;
+}
+
+.firstblock,.secondblock,.thirdblock{
+    display: grid;
+    grid-row-gap: 30px;
+}
+
+.background-main{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 18px;
+    position: relative;
+}
+
+.main{
+    background-color: hsl(235, 46%, 20%);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    border-radius: 14px;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.background-main p{
+    color: white;
+    font-size: 14px;
+    font-family: Rubik;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.background-main h1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.main h1{
+    font-size: 40px;
+}
+
+.main h2{
+    line-height: 2;
+    color: hsl(235, 45%, 61%);
+}
+
+.main h2:hover{
+    color: rgb(226, 226, 226);
+}
+
+
+.jeremy{
+    width: 30%;
+    border: 10px white;
+    border-image: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.background-work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("images/icon-work.svg");
+}
+
+.work,.play,.selfcare,.social,.study,.exercise{
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 14px;
+    height: 83%;
+    position: absolute;
+    padding-left: 10%;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.background-play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("images/icon-play.svg");
+}
+
+.background-study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("images/icon-study.svg");
+}
+
+.background-exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("images/icon-exercise.svg");
+}
+
+.background-social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("images/icon-social.svg");
+}
+
+.background-selfcare{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("images/icon-self-care.svg");
+}
+
+.background-exercise,.background-play,.background-selfcare,.background-social,.background-study,.background-work{
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 18px;
+    position: relative;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    font-family: Rubik;
+}
+
+h2{
+    color: white;
+    font-size: 18px;
+    font-family: Rubik;
+}
+
+h3{
+    color:hsl(236, 100%, 87%);
+    font-size: 16px; 
+    font-family: Rubik;
+}
+
+
+.ellipsis{
+    margin-top: 17%;
+    margin-right: 15%;
+    float: right;
+}
+
