@@ -67,8 +67,8 @@ body {
 
 .jeremy{
     width: 30%;
-    border: 10px white;
-    border-image: 10px;
+    border: 3px white solid;
+    border-radius: 100px;
     margin-left: 10%;
     margin-top: 10%;
 }
