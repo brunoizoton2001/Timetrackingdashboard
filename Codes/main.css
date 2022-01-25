@@ -4,16 +4,17 @@
 
 body {
     background-color: hsl(226, 43%, 10%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .all{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 10px;
-    margin-top: 10%;
     grid-gap: 30px;
+    padding: 10%;
+    width: 100vw;
 }
 
 .firstblock,.secondblock,.thirdblock{
@@ -141,8 +142,211 @@ h3{
 
 
 .ellipsis{
-    margin-top: 17%;
-    margin-right: 15%;
-    float: right;
+    position: absolute;
+    right: 50px;
+    top: 40px;
 }
 
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    h1{
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px){
+    body{
+        display: block;
+    }
+
+   .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 260px repeat(3, 500px);
+   }
+
+   .jeremy{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+   }
+
+   .main-container{
+       display: flex;
+       justify-content: space-evenly;
+       height: 100%;
+       margin-top: 3%;
+   }
+
+   .background-main p, .background-main h1 {
+       margin-top: 10px;
+       margin-left: 0;
+   }
+
+   .background-main h1 {
+       font-size: 36px;
+       width: 100%;
+   }
+
+   .main{
+       padding: 2%;
+       position: absolute;
+       bottom: 0;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   h3{
+       position: absolute;
+       right: 50px;
+        top: 100px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        display: block;
+    }
+
+   .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 260px repeat(3, 500px);
+   }
+
+   .jeremy{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+   }
+
+   .main-container{
+       display: flex;
+       justify-content: space-evenly;
+       height: 100%;
+       margin-top: 5%;
+   }
+
+   .background-main p, .background-main h1 {
+       margin-top: 10px;
+       margin-left: 0;
+   }
+
+   .background-main h1 {
+       font-size: 36px;
+       width: 100%;
+   }
+
+   .main{
+       padding: 2%;
+       position: absolute;
+       bottom: 0;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   h3{
+       position: absolute;
+       right: 50px;
+        top: 100px;
+   }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    body{
+        display: block;
+    }
+
+   .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 260px repeat(3, 500px);
+   }
+
+   .jeremy{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+   }
+
+   .main-container{
+       display: flex;
+       justify-content: space-evenly;
+       height: 100%;
+       margin-top: 8%;
+   }
+
+   .background-main p, .background-main h1 {
+       margin-top: 10px;
+       margin-left: 0;
+   }
+
+   .background-main h1 {
+       font-size: 36px;
+       width: 100%;
+   }
+
+   .main{
+       padding: 2%;
+       position: absolute;
+       bottom: 0;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   h3{
+       position: absolute;
+       right: 50px;
+        top: 100px;
+   }
+}
+
+@media (max-width: 575px){
+    body{
+        display: block;
+    }
+
+   .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 260px repeat(3, 500px);
+   }
+
+   .jeremy{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+   }
+
+   .main-container{
+       display: flex;
+       justify-content: space-evenly;
+       height: 100%;
+       margin-top: 12%;
+   }
+
+   .background-main p, .background-main h1 {
+       margin-top: 10px;
+       margin-left: 0;
+   }
+
+   .background-main h1 {
+       font-size: 36px;
+       width: 100%;
+   }
+
+   .main{
+       padding: 2%;
+       position: absolute;
+       bottom: 0;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   h3{
+       position: absolute;
+       right: 50px;
+        top: 100px;
+   }
+}
